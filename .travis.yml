@@ -1,1 +1,4 @@
 language: java
+
+before-script:
+  composer install --no-interaction
