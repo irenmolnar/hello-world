@@ -1,4 +1,5 @@
 language: java
+jdk:
+  - oraclejdk8
 
-before-script:
-  composer install --no-interaction
+script: ant build
